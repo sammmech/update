@@ -312,14 +312,24 @@ h6{
 }
 
 
-
-/* about area (map)  */
-
+/* modal  */
 
 
+.modal-body{
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    word-spacing: 1px;
+}
 
 
-/* footer starts  */
+
+
+.modal-header h1{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+/* modal  */
 
 
 

@@ -90,9 +90,14 @@
             <a class="nav-link" href="#about">About Us</a>
           </li>
           </li>
+
+
+
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <button type="button text-dark" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="example@gmail.com">Contact</button>
           </li>
+
+          
         </ul>
         <form class="d-flex" role="search">
           <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
@@ -103,13 +108,22 @@
   </nav>
 
 
+
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button>
+
+
+
 <section class="home">
   <div class="container py-4">
     <div class="row py-2">
       <div class="col-lg-7 pt-5 text-center">
 
         <h1 class="pt-3">For over 14 years, O’niel<br> Communication Innovation <br>has helped many business <br> clients from different <br> industries and enterprise <br> succeed.</h1>
-        <button class="btn1 mt-2">More Info</button>
+        <button type="button" class="btn1 btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        More info
+        </button>
 
       </div>
     </div>
@@ -715,13 +729,7 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  
+
   
   
    <!-- social -->
@@ -749,6 +757,217 @@
 
 
 
+<!-- modal section  -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content bg-dark">
+      <div class="modal-header">
+        <h1 class="modal-title text-warning text-center fs-4" id="staticBackdropLabel">HISTORY OF O'NIEL COMMUNICATION</h1>
+        <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bg-dark text-white">
+       <p> My Life Story In 250 Words Or Less
+        Today starts the Blog Everyday In May Challenge! First let me say that I am not going into this planning to blog 31 days straight. That just ain’t gonna happen folks. But I’m going to do my best to participate, and here’s why. The reasoning behind why Jenni came up with the challenge. She says it best: ” I want to get back to the basics. You know, the writing stuff. We bloggers feel a lot of pressure to write something “cool” and funny and relatable and enjoyable, and that’s GREAT, but sometimes the pressure can be too much.”
+        There is a list of topics for each day. The rules aren’t strict. You can skip around, go out of order, whatever you want. If you are a blogger and would like to participate, DO IT!
+        
+        Today’s topic: Describe your life story in 250 words or less. Here we go:
+        
+        I was born in Detroit, Michigan, September 27, 1984. I grew up in the suburbs of Detroit as an only child. I hated not having a sibling, as there was no one to shift the blame to when I did something wrong. My parents were strict, and I was, for the most part, a good kid (despite those few teenage years, ahem).
+      
+      
+        But obviously I found the love of my life here, so that combined with the whole running my own business thing, well I’m not sure I’ve ever felt so content in life. It’s been almost 4 years in California, and I can’t imagine being anywhere else right now.
+
+        So there you go, a quick version of my life story. I thought for sure I went over 250 words but I used a handy word count tool thingy and it said 246. I did it! You should join in and link up for the Blog Everyday In May Challenge too! Tell me your life story.
+        Today starts the Blog Everyday In May Challenge! First let me say that I am not going into this planning to blog 31 days straight. That just ain’t gonna happen folks. But I’m going to do my best to participate, and here’s why. The reasoning behind why Jenni came up with the challenge. She says it best: ” I want to get back to the basics. You know, the writing stuff. We bloggers feel a lot of pressure to write something “cool” and funny and relatable and enjoyable, and that’s GREAT, but sometimes the pressure can be too much.”
+        There is a list of topics for each day. The rules aren’t strict. You can skip around, go out of order, whatever you want. If you are a blogger and would like to participate, DO IT!
+        
+        Today’s topic: Describe your life story in 250 words or less. Here we go:
+        
+        I was born in Detroit, Michigan, September 27, 1984. I grew up in the suburbs of Detroit as an only child. I hated not having a sibling, as there was no one to shift the blame to when I did something wrong. My parents were strict, and I was, for the most part, a good kid (despite those few teenage years, ahem).</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- modal section  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- contact module  -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header bg-dark">
+        <h1 class="modal-title text-warning fs-2" id="exampleModalLabel">O'NIEL INNOVATION</h1>
+        <button type="button text-white" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bg-dark">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label"><p class="text-white">Recipient:</p></label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label"><p class="text-white">Message:</p></label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer bg-dark">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+       <a href="mailto:onielinnovation@gmail.com"> <button type="button" class="btn btn-warning">Send message</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- contact module  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
 
 
 
@@ -767,7 +986,7 @@
           <p class="text-white">Need an expert? you are more than welcomed to leave your contact info and we will be in touch shortly</p>
           <div class="social-links">
             <a href="https://facebook.com/onielinnovation"><i class="bi bi-facebook"></i></a>
-            <a href="onielinnovation@gmail.com"><i class="bi bi-google"></i></a>
+            <a href="mailto:onielinnovation@gmail.com"><i class="bi bi-envelope-at"></i></a>
             <a href="https://wa.me/message/TX5CBZUOM6P2F1"><i class="bi bi-whatsapp"></i></a>
             <a href="#"><i class="bi bi-twitter-x"></i></a>
            <a href="#"><i class="bi bi-instagram"></i></a>
@@ -776,7 +995,7 @@
         <div class="col-lg-3 ms-auto">
           <h6 class="text-warning mb-4">CONTACTS</h6>
           <p class="text-white mb-1"><i class="bi bi-telephone text-white"></i> +234(0)80887 28020</p>
-          <p class="text-white mb-1"><i class="bi bi-google"></i> onielinnovation@gmail.com</p>
+          <p class="text-white mb-1"><i class="bi bi-envelope-at"></i> onielinnovation@gmail.com</p>
           <p class="mb-0 text-white"><i class="bi bi-geo-alt-fill text-white"></i> 43 NDDC Road 11 Rumukwurushi PipelinePort Harcourt,Rivers State,Nigeria.</p>
         </div>
 
